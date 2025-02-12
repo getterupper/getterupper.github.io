@@ -14,4 +14,8 @@ authors:
 - Wei Sun
 - Yan Wang
 - Yilun Chen
+links:
+  OpenReview: https://openreview.net/forum?id=rCX9l4OTCT
+  Paper: https://arxiv.org/abs/2502.07309
+  Code: https://github.com/getterupper/PreWorld
 ---

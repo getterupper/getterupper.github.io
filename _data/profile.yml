@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Xiang Li"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/THU.png" alt="Tsinghua University" class="inline-badge"/></span> Undergraduate Student, Department of Computer Science and Technology, Tsinghua University'
+  - '<span class="no-break"><img src="assets/images/badges/THU.png" alt="Tsinghua University" class="inline-badge"/></span> Incoming PhD Student, College of AI, Tsinghua University'
 
 email: "l-x21@mails.tsinghua.edu.cn"
 gscholar: tu963_kAAAAJ
@@ -16,7 +16,7 @@ github: getterupper
 # orcid: 0000-0000-0000-0000
 
 short_bios:
-  - 'I am currently an undergraduate student of <a href="https://www.cs.tsinghua.edu.cn" target="_blank">Dept. of Computer Sci. & Tech., THU</a>, and an intern of <a href="https://air.tsinghua.edu.cn" target="_blank">AIR, THU</a> and TARS.'
+  - 'I am currently an incoming PhD student at <a href="https://collegeai.tsinghua.edu.cn" target="_blank">CollegeAI, THU</a>, advised by Prof. <a href="https://air.tsinghua.edu.cn/en/info/1046/1188.htm">Yaqin Zhang<a/>. I am also a intern of <a href="https://air.tsinghua.edu.cn" target="_blank">AIR, THU</a> and TARS. Previously, I received my B.Eng. degree from <a href="https://www.cs.tsinghua.edu.cn" target="_blank">Dept. of Computer Sci. & Tech., THU</a>.'
   - 'My research interests include <strong>3D Scene Understanding</strong>, <strong>Autonomous Driving</strong> and <strong>Embodied AI</strong>.'
 
 show_portrait: true
@@ -27,8 +27,8 @@ portrait_url: assets/images/photos/lixiang.jpg
 education:
 - name: Tsinghua University
   logo: assets/images/badges/THU.png
-  position: Undergraduate Student of Dept. of Computer Sci. & Tech.
-  date: Sep. 2021 - Now
+  position: B.Eng. in Computer Science
+  date: Sep. 2021 - Jun. 2025
 
 experience:
 - name: TARS
@@ -47,6 +47,8 @@ experience:
 cv_link: https://getterupper.github.io/cv/CV.pdf
 
 awards:
+- name: Outstanding Graduate of Department
+  date: 2025
 - name: Tsinghua Excellent Academic Scholarship
   date: 2022 / 2023 / 2024
 - name: Tsinghua Excellent Art Scholarship

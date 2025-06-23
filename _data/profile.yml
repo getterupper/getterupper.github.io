@@ -16,7 +16,7 @@ github: getterupper
 # orcid: 0000-0000-0000-0000
 
 short_bios:
-  - 'I am currently an incoming PhD student at <a href="https://collegeai.tsinghua.edu.cn" target="_blank">CollegeAI, THU</a>, advised by Prof. <a href="https://air.tsinghua.edu.cn/en/info/1046/1188.htm">Yaqin Zhang<a/>. I am also a intern of <a href="https://air.tsinghua.edu.cn" target="_blank">AIR, THU</a> and TARS. Previously, I received my B.Eng. degree from <a href="https://www.cs.tsinghua.edu.cn" target="_blank">Dept. of Computer Sci. & Tech., THU</a>.'
+  - 'I am currently an incoming PhD student at <a href="https://collegeai.tsinghua.edu.cn" target="_blank">CollegeAI, THU</a>, advised by Prof. <a href="https://air.tsinghua.edu.cn/en/info/1046/1188.htm">Yaqin Zhang<a/>. I am also an intern of <a href="https://air.tsinghua.edu.cn" target="_blank">AIR, THU</a> and TARS. Previously, I received my B.Eng. degree from <a href="https://www.cs.tsinghua.edu.cn" target="_blank">Dept. of Computer Sci. & Tech., THU</a>.'
   - 'My research interests include <strong>3D Scene Understanding</strong>, <strong>Autonomous Driving</strong> and <strong>Embodied AI</strong>.'
 
 show_portrait: true

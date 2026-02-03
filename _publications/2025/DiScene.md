@@ -15,5 +15,6 @@ authors:
 - Ya-Qin Zhang
 - Wenchao Ding
 links:
+  Paper: https://arxiv.org/abs/2602.02318
   Code: https://github.com/getterupper/DiScene
 ---

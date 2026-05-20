@@ -16,8 +16,9 @@ github: getterupper
 # orcid: 0000-0000-0000-0000
 
 short_bios:
-  - 'I am currently a first-year Ph.D. student at <a href="https://collegeai.tsinghua.edu.cn" target="_blank">CollegeAI, THU</a>, advised by Prof. <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen<a/> and Prof. <a href="https://air.tsinghua.edu.cn/en/info/1046/1188.htm">Ya-Qin Zhang<a/>. I am also an intern of <a href="https://air.tsinghua.edu.cn" target="_blank">AIR, THU</a> and TARS Robotics. Previously, I received my B.Eng. degree from <a href="https://www.cs.tsinghua.edu.cn" target="_blank">Dept. of Computer Sci. & Tech., THU</a>.'
-  - 'My research interests include <strong>3D Scene Understanding</strong>, <strong>Autonomous Driving</strong> and <strong>Embodied AI</strong>.'
+  - 'I am currently a first-year Ph.D. student at <a href="https://collegeai.tsinghua.edu.cn" target="_blank">CollegeAI, THU</a>, advised by Prof. <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Yilun Chen<a/> and Prof. <a href="https://air.tsinghua.edu.cn/en/info/1046/1188.htm">Ya-Qin Zhang<a/>. Prior to that, I received my B.Eng. degree from <a href="https://www.cs.tsinghua.edu.cn" target="_blank">Dept. of Computer Sci. & Tech., THU</a>.'
+  - 'I am also an intern of TARS Robotics. Prior to that, I had the pleasure of interning at <a href="https://air.tsinghua.edu.cn" target="_blank">AIR, THU</a>.'
+  - 'My research interests include <strong>3D Scene Understanding</strong>, <strong>Embodied AI</strong> and <strong>Autonomous Driving</strong>.'
 
 show_portrait: true
 portrait_url: assets/images/photos/lixiang.jpg
@@ -42,7 +43,7 @@ experience:
 - name: Institute for AI Industry Research, Tsinghua University
   logo: assets/images/badges/AIR.png
   position: Research Intern
-  date: Sep. 2023 - Now
+  date: Sep. 2023 - Aug. 2025
 - name: HKU Musketeers Foundation Institute of Data Science
   logo: assets/images/badges/IDS_HKU.png
   position: Student Research Assistant

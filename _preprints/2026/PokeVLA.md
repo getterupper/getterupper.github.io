@@ -8,10 +8,10 @@ highlight: >-
    We propose PokéVLA, a lightweight yet powerful foundation model for embodied manipulation that effectively infuses vision-language understanding into action learning.
 cover:          assets/images/covers/pokevla.png
 authors:
-- Yupeng Zheng
-- Xiang Li
-- Songen Gu
-- Yuhang Zheng
+- Yupeng Zheng*
+- Xiang Li*
+- Songen Gu*
+- Yuhang Zheng*
 - Shuai Tian
 - Weize Li
 - Linbo Wang
@@ -24,6 +24,6 @@ authors:
 - Haoran Li
 - Wenchao Ding
 links:
-  Project: https://getterupper.github.io/PokeVLA
+  Project Page: https://getterupper.github.io/PokeVLA
   Paper: https://arxiv.org/abs/2604.20834
 ---

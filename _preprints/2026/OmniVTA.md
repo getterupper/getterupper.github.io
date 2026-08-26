@@ -10,8 +10,8 @@ cover:          assets/images/covers/omnivta.png
 authors:
 - Yuhang Zheng
 - Songen Gu
-- Weize Li
 - Yupeng Zheng
+- Weize Li
 - Yujie Zang
 - Shuai Tian
 - Xiang Li

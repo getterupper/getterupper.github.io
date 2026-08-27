@@ -24,6 +24,5 @@ authors:
 - Haoran Li
 - Wenchao Ding
 links:
-  Project Page: https://getterupper.github.io/PokeVLA
   Paper: https://arxiv.org/abs/2604.20834
 ---

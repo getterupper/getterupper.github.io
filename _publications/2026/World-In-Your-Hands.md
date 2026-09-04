@@ -1,9 +1,9 @@
 ---
 title:          "World In Your Hands: A Large-Scale and Open-Source Ecosystem for Learning Human-Centric Manipulation in the Wild"
-date:           2025-12-30 16:06:29 +0000
+date:           2026-09-04 23:49:00 +0800
 selected:       false
-pub:            "Preprint"
-pub_date:       "2025"
+pub:            "Conference on Robot Learning (<strong>CoRL</strong>)"
+pub_date:       "2026"
 highlight: >-
    We introduce World In Your Hands (WIYH), a large-scale open-source ecosystem with over 1,000 hours of in-the-wild human manipulation data, rich multimodal annotations, and benchmarks for human-centric manipulation learning.
 cover:          assets/images/covers/wiyh.png

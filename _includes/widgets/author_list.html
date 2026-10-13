@@ -1,16 +1,30 @@
 {%- assign authors = include.authors -%}
 {%- assign has_eq_contrib = false -%}
-{%- assign i = 0 -%}
+{%- assign has_core_contrib = false -%}
+{%- assign has_project_leader = false -%}
+{%- assign has_corresponding_author = false -%}
 {%- for _key in authors -%}
-    {%- assign last_char = _key | slice: -1, 1%}
-    {%- if last_char == "*" -%}
-        {%- assign key = _key | split: "*" | first -%}
-        {%- assign mark = "*" -%}
-        {%- assign has_eq_contrib = true -%}
-    {%- else -%}
-        {%- assign key = _key -%}
-        {%- assign mark = "" -%}
-    {%- endif -%}
+    {%- assign key = _key | strip -%}
+    {%- assign mark = "" -%}
+    {%- assign key_length = key | size -%}
+    {%- for index in (1..key_length) -%}
+        {%- assign last_char = key | slice: -1, 1 -%}
+        {%- case last_char -%}
+            {%- when "*" -%}
+                {%- assign has_eq_contrib = true -%}
+            {%- when "#" -%}
+                {%- assign has_core_contrib = true -%}
+            {%- when "†" -%}
+                {%- assign has_project_leader = true -%}
+            {%- when "‡" -%}
+                {%- assign has_corresponding_author = true -%}
+            {%- else -%}
+                {%- break -%}
+        {%- endcase -%}
+        {%- assign mark = last_char | append: mark -%}
+        {%- assign name_length = key | size | minus: 1 -%}
+        {%- assign key = key | slice: 0, name_length | strip -%}
+    {%- endfor -%}
 
     {%- assign info = site.data.authors[key] -%}
 
@@ -38,4 +52,13 @@
 
 {%- if has_eq_contrib == true -%}
 <mark>(* <i> equal contribution</i>)</mark>
+{%- endif -%}
+{%- if has_core_contrib == true -%}
+<mark>(# <i> core contribution</i>)</mark>
+{%- endif -%}
+{%- if has_project_leader == true -%}
+<mark>(† <i> project leader</i>)</mark>
+{%- endif -%}
+{%- if has_corresponding_author == true -%}
+<mark>(‡ <i> corresponding author</i>)</mark>
 {%- endif -%}

@@ -4,6 +4,7 @@ navbar_name: "Xiang Li"
 
 positions:
   - '<span class="no-break"><img src="assets/images/badges/THU.png" alt="Tsinghua University" class="inline-badge"/></span> Ph.D. Student, College of AI, Tsinghua University'
+  - '<span class="no-break"><img src="assets/images/badges/openphoenix.png" alt="OpenPhoenix Team" class="inline-badge"/></span> Co-Founder, OpenPhoenix Team'
 
 email: "l-x21@mails.tsinghua.edu.cn"
 gscholar: tu963_kAAAAJ
@@ -36,6 +37,10 @@ education:
   date: Sept. 2021 - Jun. 2025
 
 experience:
+- name: OpenPhoenix Team
+  logo: assets/images/badges/openphoenix.png
+  position: Co-Founder
+  date: Oct. 2026 - Now
 - name: TARS Robotics | AWE Research Team
   logo: assets/images/badges/TARS.jpg
   position: Research Intern
